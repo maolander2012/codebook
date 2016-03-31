@@ -21,6 +21,6 @@ codebook.table <- function(df) {
         panderOptions("table.style", "rmarkdown")
         # panderOptions("table.alignment.default", "left")
         # panderOptions("table.alignment.rownames", "left")
-        set.alignment(default = c('centre', 'left', 'left'), row.names = "left")
+        set.alignment(default = c('centre', 'centre', 'left'), row.names = "left")
         pander(codebook(df))
 }
