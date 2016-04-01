@@ -6,7 +6,7 @@
 
 
 # Take a dataframe (df)
-# and assemble a dataframe of classes and an empty column called "Description"
+# and return a dataframe of classes and empty columns called "Units" and Description"
 codebook <- function(df) {
         if (!(is.data.frame(df)))
                 stop("not a dataframe")
