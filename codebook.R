@@ -10,7 +10,7 @@
 codebook <- function(df) {
         if (!(is.data.frame(df)))
                 stop("not a dataframe")
-        data.frame(Class = sapply(df, class), Units = "", Description = "")
+        data.frame(Class = sapply(df, FUN = class), Units = "", Description = "")
 }
 
 
